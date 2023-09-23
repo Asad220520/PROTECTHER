@@ -12,6 +12,8 @@ const HomePage = () => {
           <Current/>
           <NadFooter/>
         </div>
+      <div className="homePage">
+        <Bonuses />
       </div>
     </div>
   );
