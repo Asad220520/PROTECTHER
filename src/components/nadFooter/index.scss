@@ -1,15 +1,17 @@
 #nad{
+    background: url("../../image//people.png") no-repeat center/cover;
         .nad{
-        &--block1{
+            &--group{
+                .block1{
             width: 380px;
             height: 250px;
-            background: url("../../image/fut.png") no-repeat center/cover;
         }
-        &--block2{
+        .block2{
             width: 380px;
-            background: url("../../image/fut.png") no-repeat center/cover;
             height: 250px;
         }
+            }
+        
     }
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./index.scss"
+import fut from "../../image/fut.png"
 const NadFooter = () => {
   return (
     <div id='nad'>
@@ -7,12 +8,14 @@ const NadFooter = () => {
         <div className="nad">
             <p>Want to make a difference?</p>
             <h2>Start a petition for…</h2>
-            <div className="">
+            <div className="nad--group fustify-between flex py-20">
                 <div className="block1">
+                    <img width={380} src={fut} alt="img" />
                     <h2>Myself or my family</h2>
                     <button>Get started</button>
                 </div>
                 <div className="block2">
+                    <img height={250} src={fut} alt="img" />
                 <h2>My local community</h2>
                     <button>Get started</button>
                 </div>
