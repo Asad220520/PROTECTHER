@@ -1,6 +1,6 @@
 import React from "react";
 
-const Donate = () => {
+const MyPet = () => {
   return (
     <div id="donate">
       <div className="container">
@@ -10,4 +10,4 @@ const Donate = () => {
   );
 };
 
-export default Donate;
+export default MyPet;

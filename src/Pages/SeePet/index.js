@@ -1,6 +1,6 @@
 import React from "react";
 
-const Latest = () => {
+const SeePet = () => {
   return (
     <div id="latest">
       <div className="container">
@@ -10,4 +10,4 @@ const Latest = () => {
   );
 };
 
-export default Latest;
+export default SeePet;
