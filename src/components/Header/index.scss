@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
+
     .nav {
       display: flex;
       align-items: center;
@@ -16,6 +17,10 @@
         font-style: normal;
         font-weight: 700;
         line-height: 25px;
+
+        &:hover {
+          color: orange;
+        }
       }
 
       &__btn {

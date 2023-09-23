@@ -1,0 +1,35 @@
+#petition {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+  input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 0;
+  }
+}
