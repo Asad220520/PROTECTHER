@@ -1,10 +1,13 @@
 import React from "react";
+import Bonuses from "../Bonuses";
 
 const HomePage = () => {
   return (
     <div id="homePage">
       <div className="container">
-        <div className="homePage">homePage</div>
+        <div className="homePage">
+          <Bonuses />
+        </div>
       </div>
     </div>
   );

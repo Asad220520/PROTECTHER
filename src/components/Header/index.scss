@@ -1,0 +1,44 @@
+#header {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      a {
+        color: #2F2A33;
+        font-family: Inter;
+        font-size: 15.25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+      }
+
+      &__btn {
+        margin-left: 77px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        button {
+          color: #FFF;
+          font-family: Inter;
+          border-radius: 5px;
+          background: #5996FF;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 25px;
+          border: none;
+          outline: none;
+          padding: 11px 14px;
+        }
+      }
+    }
+
+
+  }
+}

@@ -1,0 +1,35 @@
+#bonuses {
+  .bonuses {
+    display: flex;
+    justify-content: space-between;
+
+    &__text {
+      max-width: 577px;
+
+      h1 {
+        color: #2F2A33;
+        font-family: Inter;
+        font-size: 62.125px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 76.8px;
+        span {
+          color: #FF7A01;
+          font-family: Inter;
+          font-size: 62.125px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 76.8px;
+        }
+      }
+
+      p {
+        color: #2F2A33;
+        font-family: Inter;
+        font-size: 22.125px;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+  }
+}
