@@ -1,0 +1,54 @@
+#current {
+    .current {
+        padding: 60px 0;
+        .h1{
+            color: #2F2A33;
+text-align: center;
+font-family: Inter;
+font-size: 46.125px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px; 
+padding:0 0 50px 0;
+        }
+        .block1 {
+            padding: 1px 15px 0 15px;
+            font-family: Inter;
+
+            .h3 {
+                color: #2F2A33;
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 25px;
+            }
+
+            .h4 {
+                color: #2F2A33;
+                font-family: Inter;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 38.4px;
+                width: 95%;
+            }
+        }
+
+        .reiting {
+            width: 100%;
+            height: 15px;
+            background: white;
+            border-radius: 4px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: "";
+                width: 80%;
+                height: 15px;
+                background: rgb(255, 85, 23);
+            }
+        }
+    }
+}

@@ -1,5 +1,7 @@
 import React from "react";
 import Bonuses from "../Bonuses";
+import NadFooter from "../nadFooter";
+import Current from "../current";
 
 const HomePage = () => {
   return (
@@ -7,6 +9,8 @@ const HomePage = () => {
       <div className="container">
         <div className="homePage">
           <Bonuses />
+          <Current/>
+          <NadFooter/>
         </div>
       </div>
     </div>
