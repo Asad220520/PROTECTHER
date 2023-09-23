@@ -4,10 +4,8 @@ import Bonuses from "../Bonuses";
 const HomePage = () => {
   return (
     <div id="homePage">
-      <div className="container">
-        <div className="homePage">
-          <Bonuses />
-        </div>
+      <div className="homePage">
+        <Bonuses />
       </div>
     </div>
   );
