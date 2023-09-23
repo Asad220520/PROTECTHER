@@ -1,17 +1,91 @@
-#nad{
+#nad {
     background: url("../../image//people.png") no-repeat center/cover;
-        .nad{
-            &--group{
-                .block1{
-            width: 380px;
-            height: 250px;
+
+    .bg {
+        padding: 150px 0 0 0;
+        background: linear-gradient(360deg, rgba(0, 0, 0, 0.95), rgba(37, 37, 37, 0.456));
+    }
+
+    .nad {
+        padding-bottom: 80px;
+
+        .p {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 15.5px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 25px;
         }
-        .block2{
-            width: 380px;
-            height: 250px;
+
+        .h2 {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 46.688px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
         }
+
+        &--group {
+            .block1 {
+                z-index: 10;
+                width: 380px;
+                border-radius: 10px;
+                background: #6f97a8;
+                h2{color: #141414;
+                    font-family: Inter;
+                    padding: 0 0 0 15px;
+                    font-size: 30.875px;
+                    font-style: normal;
+                    font-weight: 900;
+                }
+                button{
+                    color: #2F2A33;
+                    margin: 25px 0 20px 15px;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+border-radius: 5px;
+background: #FFF;
+width: 123px;
+height: 35px;
+                }
             }
-        
+            .block2 {
+                z-index: 10;
+                width: 380px;
+                border-radius: 10px;
+                    background: #6f97a8;
+                h2{color: #141314;
+                    font-family: Inter;
+                    padding: 0 0 0 15px;
+                    font-size: 30.875px;
+                    font-style: normal;
+                    font-weight: 900;
+                }
+                button{
+                    color: #2F2A33;
+                    margin-left: 15px;
+                    margin: 25px 0 20px 15px;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+border-radius: 5px;
+background: #FFF;
+width: 123px;
+height: 35px;
+                }
+            }
+        }
+
     }
 }
-
