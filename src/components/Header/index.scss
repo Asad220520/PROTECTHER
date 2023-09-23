@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding: 20px 0;
     .nav {
       display: flex;
       align-items: center;
@@ -23,6 +23,7 @@
         display: flex;
         align-items: center;
         gap: 20px;
+
         button {
           color: #FFF;
           font-family: Inter;

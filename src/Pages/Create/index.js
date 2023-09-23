@@ -1,6 +1,6 @@
 import React from "react";
 
-const Campaigns = () => {
+const Create = () => {
   return (
     <div id="campaigns">
       <div className="container">
@@ -10,4 +10,4 @@ const Campaigns = () => {
   );
 };
 
-export default Campaigns;
+export default Create;
