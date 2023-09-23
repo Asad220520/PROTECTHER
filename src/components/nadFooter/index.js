@@ -4,11 +4,12 @@ import fut from "../../image/fut.png"
 const NadFooter = () => {
   return (
     <div id='nad'>
-      <div className="container">
+     <div className="bg">
+     <div className="container">
         <div className="nad">
-            <p>Want to make a difference?</p>
-            <h2>Start a petition for…</h2>
-            <div className="nad--group fustify-between flex py-20">
+            <p className='p'>Want to make a difference?</p>
+            <h2 className='h2'>Start a petition for…</h2>
+            <div className="nad--group justify-between flex py-10">
                 <div className="block1">
                     <img width={380} src={fut} alt="img" />
                     <h2>Myself or my family</h2>
@@ -22,6 +23,7 @@ const NadFooter = () => {
             </div>
         </div>
       </div>
+     </div>
     </div>
   )
 }

@@ -1,7 +1,21 @@
 #current {
+    .current {
+        padding: 60px 0 100px 0;
+        .h1{
+            color: #2F2A33;
+text-align: center;
+font-family: Inter;
+font-size: 46.125px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px; 
+padding:0 0 50px 0;
+        }
+        .block1 {
+            padding: 1px 15px 0 15px;
+            font-family: Inter;
   .current {
     padding: 60px 0;
-
     .h1 {
       color: #2F2A33;
       text-align: center;
