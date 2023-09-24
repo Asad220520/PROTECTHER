@@ -96,3 +96,15 @@
 
   }
 }
+@media (max-width: 850px) {
+  #nad{
+    .nad{
+      &--group{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+      }
+    }
+  }
+}
