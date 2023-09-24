@@ -1,70 +1,61 @@
 #current {
-    .current {
-        padding: 60px 0 100px 0;
-        .h1{
-            color: #2F2A33;
-text-align: center;
-font-family: Inter;
-font-size: 46.125px;
-font-style: normal;
-font-weight: 900;
-line-height: 48px; 
-padding:0 0 50px 0;
-        }
-        .block1 {
-            padding: 1px 15px 0 15px;
-            font-family: Inter;
+  h2 {
+    color: #2F2A33;
+    text-align: center;
+    font-family: Inter;
+    font-size: 46.125px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    padding-bottom: 20px;
+  }
+
   .current {
-    padding: 60px 0;
-    .h1 {
-      color: #2F2A33;
-      text-align: center;
-      font-family: Inter;
-      font-size: 46.125px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: 48px;
-      padding: 0 0 50px 0;
-    }
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
 
-    .block1 {
-      padding: 1px 15px 0 15px;
-      font-family: Inter;
+    &__block {
+      border-radius: 10px;
+      background: #D2D9E7;
+      padding: 10px;
+      max-width: 400px;
 
-      .h3 {
-        color: #2F2A33;
-        font-family: Inter;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 25px;
-      }
+      &-bl {
+        padding: 20px;
 
-      .h4 {
-        color: #2F2A33;
-        font-family: Inter;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 38.4px;
-        width: 95%;
-      }
-    }
+        h1 {
+          color: #2F2A33;
+          font-family: Inter;
+          font-size: 30.5px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 38.4px;
+          padding: 10px 0;
+        }
 
-    .reiting {
-      width: 100%;
-      height: 15px;
-      background: white;
-      border-radius: 4px;
-      position: relative;
-
-      &::before {
-        position: absolute;
-        content: "";
-        width: 80%;
-        height: 15px;
-        background: rgb(255, 85, 23);
+        button {
+          color: #FFF;
+          font-family: Inter;
+          font-size: 15.5px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 25px;
+          padding: 20px 40px;
+          border-radius: 10px;
+          background: #FF7A01;
+        }
       }
     }
   }
-}}}
+}
+
+@media (max-width: 700px) {
+  #current {
+    .current {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}

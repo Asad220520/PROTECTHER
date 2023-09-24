@@ -13,6 +13,7 @@
         font-size: 32.125px;
         font-weight: 900;
         padding-bottom: 20px;
+        font-family: sans-serif;
       }
 
       p {
@@ -23,6 +24,7 @@
           font-style: normal;
           font-weight: 900;
           line-height: 76.8px;
+          font-family: sans-serif;
         }
 
         color: #2F2A33;
@@ -30,6 +32,7 @@
         font-size: 22.125px;
         font-style: normal;
         font-weight: 400;
+        font-family: sans-serif;
       }
 
       &-btn {
@@ -42,6 +45,10 @@
           border-radius: 10px;
           background: #FF7A01;
           color: #fff;
+
+          &:hover {
+            opacity: 0.9;
+          }
         }
 
         .btn {
@@ -106,6 +113,21 @@
         line-height: 23px;
         /* 153.333% */
       }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #bonuses {
+    .bonuses {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+
+    .arm {
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 }

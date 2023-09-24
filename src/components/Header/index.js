@@ -8,16 +8,16 @@ const Header = () => {
     <div id="header">
       <div className="container">
         <div className="header">
-          <Link>
+          <Link to={"/"}>
             <img width={150} src={logo} alt="" />
           </Link>
           <nav className="nav">
-            <NavLink to={"/create"}>Мне нужна помощь</NavLink>
-            <NavLink to={"/create"}>ПРО Насилие</NavLink>
-            <NavLink to={"/create"}>Карта центров помощи</NavLink>
-            <NavLink to={"/create"}>О нас</NavLink>
-            <NavLink to={"/create"}>Обучение</NavLink>
-            <NavLink to={"/create"}>SOS-размещение</NavLink>
+            <NavLink to={"/help"}>Мне нужна помощь</NavLink>
+            <NavLink to={"/pro"}>ПРО Насилие</NavLink>
+            <NavLink to={"/map"}>Карта центров помощи</NavLink>
+            <NavLink to={"/aboutus"}>О нас</NavLink>
+            <NavLink to={"/lesson"}>Обучение</NavLink>
+            <NavLink to={"/sos"}>SOS-размещение</NavLink>
             {/* <NavLink to={"/create"}>Создать петицию</NavLink>
             <NavLink to={"/myPet"}>Мои петиции</NavLink>
             <NavLink to={"/seePet"}>Просмотреть петиции</NavLink> */}
@@ -25,7 +25,7 @@ const Header = () => {
               <Link to={"/auth"}>
                 <BiSolidUserCircle style={{ fontSize: "28px" }} />
               </Link>
-              <button>Start a Petition</button>
+              <button>Поддержать Центр</button>
             </div>
           </nav>
         </div>

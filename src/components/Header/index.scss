@@ -8,15 +8,14 @@
     .nav {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 16px;
 
       a {
         color: #2F2A33;
-        font-family: Inter;
         font-size: 15.25px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 25px;
+        // line-height: 25px;
+        font-family: sans-serif;
 
         &:hover {
           color: orange;
@@ -41,10 +40,30 @@
           border: none;
           outline: none;
           padding: 11px 14px;
+          font-family: sans-serif;
+
+          &:hover {
+            opacity: 0.9;
+          }
         }
       }
     }
+  }
+}
 
+@media (max-width: 800px) {
+  #header {
+    .header {
+      .nav {
+        a {
+          display: none;
+        }
 
+        &__btn {
+          display: block;
+        }
+      }
+
+    }
   }
 }
