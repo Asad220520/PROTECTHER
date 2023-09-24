@@ -3,6 +3,7 @@ import "./index.scss";
 import one from "../../icons/one.svg";
 import two from "../../icons/two.png";
 import three from "../../icons/three.png";
+import stran from "../../image/stran.png";
 import women from "../../image/women.png";
 
 const Bonuses = () => {
@@ -44,6 +45,28 @@ const Bonuses = () => {
                     <span>
                       <h4 className="font-bold">200,000</h4>
                       <h3>Цель</h3>
+                    </span>
+                  </div>
+                  <div className="reiting"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bonuses__img">
+            <div className="rounded w-[380px] bg-gray-200 text-black-500">
+              <img src={stran} alt="img" />
+              <div className="block1">
+                <h3 className="h3">Petition</h3>
+                <h2 className="h4">Minimum Standardsfor MPs</h2>
+                <div className="pb-4">
+                  <div className="flex pt-4 pb-2 justify-between">
+                    <span>
+                      <h4 className="font-bold">94536</h4>
+                      <h3>Supporters</h3>
+                    </span>
+                    <span>
+                      <h4 className="font-bold">200000</h4>
+                      <h3>Target</h3>
                     </span>
                   </div>
                   <div className="reiting"></div>

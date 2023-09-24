@@ -12,6 +12,9 @@ const Header = () => {
             <img width={150} src={logo} alt="" />
           </Link>
           <nav className="nav">
+            <NavLink to={"/create"}>Создать петицию</NavLink>
+            <NavLink to={"/myPet"}>Мои петиции</NavLink>
+            <NavLink to={"/seePet"}>Просмотреть петиции</NavLink>
             <NavLink to={"/help"}>Мне нужна помощь</NavLink>
             <NavLink to={"/pro"}>ПРО Насилие</NavLink>
             <NavLink to={"/map"}>Карта центров помощи</NavLink>

@@ -1,8 +1,14 @@
+import React from "react";
+
+const Create = () => {
+  return (
+    <div id="campaigns">
+      <div className="container">
+        <div className="campaigns">campaigns</div>
 import React, { useState } from "react";
 import "./index.scss";
 
 const Create = () => {
-  // Создаем состояния для хранения данных петиции
   const [petitionTitle, setPetitionTitle] = useState("");
   const [petitionDescription, setPetitionDescription] = useState("");
   const [email, setEmail] = useState("");
