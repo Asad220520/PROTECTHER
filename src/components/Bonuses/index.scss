@@ -123,6 +123,10 @@
       display: flex;
       flex-wrap: wrap;
       gap: 50px;
+      .block{
+        width: 90%;
+        margin: 0 auto;
+      }
     }
 
     .arm {

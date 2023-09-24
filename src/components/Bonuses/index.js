@@ -27,7 +27,7 @@ const Bonuses = () => {
             </div>
           </div>
           <div className="bonuses__img">
-            <div className="rounded w-[480px] bg-gray-200 text-black-500">
+            <div className="block rounded w-[480px] bg-gray-200 text-black-500">
               <img className="img" src={women} alt="img" />
               <div className="block1">
                 <h3 className="h3">Защити нас!</h3>

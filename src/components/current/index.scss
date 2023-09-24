@@ -51,11 +51,20 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   #current {
     .current {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+    }
+  }
+}
+@media (max-width: 550px) {
+  #current {
+    .current {
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      justify-content: center;
     }
   }
 }
