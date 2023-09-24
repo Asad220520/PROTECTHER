@@ -1,73 +1,65 @@
 import React from "react";
+import stran from "../../image/cotegory.png";
+import cat2 from "../../image/cat2.png";
+import cat3 from "../../image/cat3.png";
+import cat4 from "../../image/cat4.png";
+import cat5 from "../../image/cat5.png";
+import cat6 from "../../image/cat6.png";
 import "./index.scss";
-import stran from "../../image/stran.png"
 const Current = () => {
   return (
     <div id="current">
       <div className="container">
-        <div className="current w-full">
-          <h2 className="h1 text-center ">Current Campaigns</h2>
-          <div className="flex justify-between">
-          <div className="rounded w-[380px] bg-gray-200 text-black-500">
+        <h2>Категория</h2>
+        <div className="current">
+          <div className="current__block">
             <img src={stran} alt="img" />
-            <div className="block1">
-              <h3 className="h3">Petition</h3>
-              <h2 className="h4">Minimum Standardsfor MPs</h2>
-              <div className="pb-4">
-                <div className="flex pt-4 pb-2 justify-between">
-                  <span>
-                    <h4 className="font-bold">94536</h4>
-                    <h3>Supporters</h3>
-                  </span>
-                  <span>
-                  <h4 className="font-bold">200000</h4>
-                    <h3>Target</h3>
-                  </span>
-                </div>
-                <div className="reiting"></div>
-              </div>
+            <div className="current__block-bl">
+              <h1 className="h4">
+                Юридическая <br /> помощь
+              </h1>
+              <button className="btn">Оставить заявку</button>
             </div>
-          </div> 
-           <div className="rounded w-[380px] bg-gray-200 text-black-500">
-            <img src={stran} alt="img" />
-            <div className="block1">
-              <h3 className="h3">Petition</h3>
-              <h2 className="h4">Minimum Standardsfor MPs</h2>
-              <div className="pb-4">
-                <div className="flex pt-4 pb-2 justify-between">
-                  <span>
-                    <h4 className="font-bold">94536</h4>
-                    <h3>Supporters</h3>
-                  </span>
-                  <span>
-                  <h4 className="font-bold">200000</h4>
-                    <h3>Target</h3>
-                  </span>
-                </div>
-                <div className="reiting"></div>
-              </div>
+          </div>{" "}
+          <div className="current__block">
+            <img src={cat2} alt="img" />
+            <div className="current__block-bl">
+              <h1 className="h4">
+                Психологическая <br />
+                помощь
+              </h1>
+              <button className="btn">Оставить заявку</button>
             </div>
-          </div> 
-         <div className="rounded w-[380px] bg-gray-200 text-black-500">
-            <img src={stran} alt="img" />
-            <div className="block1">
-              <h3 className="h3">Petition</h3>
-              <h2 className="h4">Minimum Standardsfor MPs</h2>
-              <div className="pb-4">
-                <div className="flex pt-4 pb-2 justify-between">
-                  <span>
-                    <h4 className="font-bold">94536</h4>
-                    <h3>Supporters</h3>
-                  </span>
-                  <span>
-                  <h4 className="font-bold">200000</h4>
-                    <h3>Target</h3>
-                  </span>
-                </div>
-                <div className="reiting"></div>
-              </div>
+          </div>{" "}
+          <div className="current__block">
+            <img src={cat3} alt="img" />
+            <div className="current__block-bl">
+              <h1 className="h4">Инструкция для пострадавших</h1>
+              <button className="btn">Оставить заявку</button>
             </div>
-          </div>
+          </div>{" "}
+          <div className="current__block">
+            <img src={cat4} alt="img" />
+            <div className="current__block-bl">
+              <h1 className="h4">
+                Группы <br /> поддержки
+              </h1>
+              <button className="btn">Оставить заявку</button>
+            </div>
+          </div>{" "}
+          <div className="current__block">
+            <img src={cat5} alt="img" />
+            <div className="current__block-bl">
+              <h1 className="h4">SOS-размещение Обратитесь к нам</h1>
+              <button className="btn">Оставить заявку</button>
+            </div>
+          </div>{" "}
+          <div className="current__block">
+            <img src={cat6} alt="img" />
+            <div className="current__block-bl">
+              <h1 className="h4">Обучение Курсы, библиотека</h1>
+              <button className="btn">Оставить заявку</button>
+            </div>
           </div>
         </div>
       </div>
