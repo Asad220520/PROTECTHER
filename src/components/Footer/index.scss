@@ -4,3 +4,15 @@
     .footer{
     }
 }
+@media (max-width:700px) {
+    #footer{
+        .footer{
+            .block{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 auto;
+            }
+
+        }
+    }
+}
